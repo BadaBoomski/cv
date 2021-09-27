@@ -523,7 +523,7 @@ home__subtitle{
 
 .qualification__button{
     font-size: var(--h3-font-size);
-    font-weight: var(--h3-font-medium);
+    font-weight: var(--h3-medium);
     cursor: pointer;
 }
 
@@ -578,8 +578,12 @@ home__subtitle{
     display: none;
 }
 
-.qualification__active [data-content]{
+.qualification__active[data-content]{
     display: block;
+}
+
+.qualifiation__button.qualification__active{
+    color: var(--first-color);
 }
 
 /*==================== SERVICES ====================*/
